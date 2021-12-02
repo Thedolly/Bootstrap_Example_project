@@ -11,6 +11,26 @@
     height: 100vh;
     background: chocolate;
 }
+.right-col-block {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}
+.section-wrapper{
+    padding: 50px;
+}
+.section-title{
+    margin-bottom: 15px;
+}
+.section-title h2{
+    color: #444;
+}
+.Expertise-item{
+    margin-bottom: 30px;
+    color: #333;
+}
+
 .header {
     padding:0;
     margin: 0;
@@ -61,4 +81,31 @@
 }
 .header .content .social-icon li a:hover{
     border-color: white;
+}
+.content-item{
+    margin-bottom: 40px;
+}
+.content-item h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.content-item small{
+    color: #888;
+}
+.education-content{
+    margin-bottom: 40px;
+}
+.education-content h4{
+    margin: 0 0 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.education-content h5{
+    margin: 0;
+    line-height: 1;
+}
+.education-content small{
+    color: #888;
 }
