@@ -96,16 +96,49 @@
 .education-content{
     margin-bottom: 40px;
 }
-.education-content h4{
+.education-content h3{
     margin: 0 0 10px;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
 }
-.education-content h5{
+.education-content h4{
     margin: 0;
     line-height: 1;
 }
 .education-content small{
     color: #888;
+}
+.control-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-control{
+    height: 50px;
+    padding: 0 20px !important;
+    font-size: 15px !important;
+    border: 2px solid #ccc !important;
+    border-radius: 0 !important;
+}
+.btn{
+    padding: 15px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+}
+.footer{
+    padding: 30px 50px;
+}
+.footer .footer-section{
+    font-size: 13px;
+    color: #777;
+}
+.footer .footer-section .copy-right-text{
+    font-weight: 400;
+    display: block;
+}
+.background-gray{
+    background-color: #f9f9f9;
 }
