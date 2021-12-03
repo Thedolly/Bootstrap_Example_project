@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Assistant', sans-serif !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    color: black !important;
+    font-weight: 500 !important;
+}
+h2{
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    line-height: 40px !important;
+}
+h3{
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    line-height: 30px !important; 
+}
+h4{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 25px !important; 
+}
+
 .columns-block {
     display: flex;
     flex-wrap: wrap;
@@ -8,8 +32,8 @@
     overflow: hidden;
     text-align: center;
     left: 0;
-    height: 100vh;
-    background: chocolate;
+    
+    
 }
 .right-col-block {
     width: 50%;
@@ -40,6 +64,7 @@
 }
 .header .content {
     position: absolute;
+    top: 0;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -64,6 +89,7 @@
     margin: 0;
     padding: 0;
     display: block;
+    line-height: 1;
 }
 .header .content .social-icon li{
     display: inline-block;
@@ -141,4 +167,34 @@
 }
 .background-gray{
     background-color: #f9f9f9;
+}
+.header .profile-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/image/dolly.jpg);
+    z-index: -1;
+    background-size: cover;
+}
+.header .profile-image::before{
+    position: absolute;
+    content:"";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(0deg,transparent,#4caee7);
+}
+@media (max-width: 600px) {
+    .left-col-block{
+        width: 100%;
+        position: relative;
+    }
+    .right-col-block{
+        width: 100%;
+        position: relative;
+    }
+    
 }
