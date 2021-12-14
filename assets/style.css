@@ -74,12 +74,12 @@ h4{
 }
 .header .content h1{
     font-size: 35px;
-    color: white;
+    color: black;
     line-height: 1;
     margin: 0;
 }
 .header .content p{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 .header .content .social-icon{
@@ -97,7 +97,7 @@ h4{
 }
 .header .content .social-icon li a{
     display: block;
-    color: white;
+    color: black;
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -174,7 +174,7 @@ h4{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../assets/image/dolly.jpg);
+    background-image: url(../assets/image/dolly.png);
     z-index: -1;
     background-size: cover;
 }
@@ -185,7 +185,7 @@ h4{
     right: 0;
     top: 0;
     bottom: 0;
-    background: linear-gradient(0deg,transparent,#4caee7);
+    /* background: linear-gradient(298deg,transparent,#e74cd2);  */
 }
 @media (max-width: 600px) {
     .left-col-block{
